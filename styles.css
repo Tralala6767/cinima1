@@ -1,1 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111;
+}
 
+header {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #800080;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #800080;
+}
+
+/* Главная страница */
+.main-bg {
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.main-info {
+    text-align: center;
+}
+
+/* Расписание */
+.schedule-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.schedule-item img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+/* Галерея */
+.gallery-section {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-section img {
+    width: 100%;
+    max-width: 45%;
+    height: auto;
+}
+
+/* Контакты */
+.contacts-info {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-info img {
+    width: 45%;
+}
